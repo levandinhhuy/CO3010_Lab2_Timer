@@ -1,0 +1,4 @@
+../Core/Src/exercise1.c:31:6:exercise1_init	8	static
+../Core/Src/exercise1.c:46:6:exercise1_run	8	static
+../Core/Src/exercise1.c:85:6:display7SEG	16	static
+../Core/Src/exercise1.c:190:6:enable_seg	16	static

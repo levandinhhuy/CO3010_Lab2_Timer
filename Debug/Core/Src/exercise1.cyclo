@@ -1,0 +1,4 @@
+../Core/Src/exercise1.c:31:6:exercise1_init	1
+../Core/Src/exercise1.c:46:6:exercise1_run	8
+../Core/Src/exercise1.c:85:6:display7SEG	11
+../Core/Src/exercise1.c:190:6:enable_seg	5
