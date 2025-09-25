@@ -5,4 +5,14 @@
  *      Author: dinhh
  */
 
+#include "exercise8.h"
 
+void exercise8_init()
+{
+
+}
+
+void exercise8_run()
+{
+
+}
