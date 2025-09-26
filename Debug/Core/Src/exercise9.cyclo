@@ -1,0 +1,5 @@
+../Core/Src/exercise9.c:93:6:exercise9_init	1
+../Core/Src/exercise9.c:114:6:exercise9_run	3
+../Core/Src/exercise9.c:130:6:updateLEDMatrix	9
+../Core/Src/exercise9.c:178:6:displayRow	4
+../Core/Src/exercise9.c:196:6:enableRow	9

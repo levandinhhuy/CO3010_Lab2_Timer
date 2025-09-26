@@ -1,0 +1,3 @@
+../Core/Src/exercise10.c:21:6:exercise10_init	8	static
+../Core/Src/exercise10.c:43:6:exercise10_run	8	static
+../Core/Src/exercise10.c:63:6:shift_left_matrix	16	static

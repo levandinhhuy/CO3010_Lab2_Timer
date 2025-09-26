@@ -1,0 +1,5 @@
+../Core/Src/exercise9.c:93:6:exercise9_init	8	static
+../Core/Src/exercise9.c:114:6:exercise9_run	8	static
+../Core/Src/exercise9.c:130:6:updateLEDMatrix	16	static
+../Core/Src/exercise9.c:178:6:displayRow	24	static
+../Core/Src/exercise9.c:196:6:enableRow	16	static
