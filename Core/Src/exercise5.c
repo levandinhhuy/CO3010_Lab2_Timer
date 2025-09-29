@@ -18,11 +18,10 @@
 #define TIMER_LED_BLINKY 1
 #define TIME_LED_BLINKY 1000
 
-extern const int MAX_LED;
 extern int index_led;
 extern int led_buffer[4];
 
-int hour = 15, minute = 8, second = 50;
+int hour = 15, minute = 59, second = 50;
 
 void exercise5_init()
 {

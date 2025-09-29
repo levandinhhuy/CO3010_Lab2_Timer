@@ -39,9 +39,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_line   0000afd8  00000000  00000000  00010356  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00082952  00000000  00000000  0001b32e  2**0
+ 18 .debug_str    00082953  00000000  00000000  0001b32e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0009dc80  2**0
+ 19 .comment      00000043  00000000  00000000  0009dc81  2**0
                   CONTENTS, READONLY
  20 .debug_frame  00002774  00000000  00000000  0009dcc4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
@@ -81,7 +81,7 @@ Disassembly of section .text:
 0800014c <exercise10_init>:
 
 #define TIMER_UPDATE_BUFFER 2
-#define TIME_UPDATE_BUFFER 800 // 790
+#define TIME_UPDATE_BUFFER 1000
 
 void exercise10_init()
 {
@@ -156,7 +156,7 @@ void exercise10_init()
  80001ee:	2001      	movs	r0, #1
  80001f0:	f000 fbbe 	bl	8000970 <setTimer>
 	setTimer(TIMER_UPDATE_BUFFER, TIME_UPDATE_BUFFER);
- 80001f4:	f44f 7148 	mov.w	r1, #800	@ 0x320
+ 80001f4:	f44f 717a 	mov.w	r1, #1000	@ 0x3e8
  80001f8:	2002      	movs	r0, #2
  80001fa:	f000 fbb9 	bl	8000970 <setTimer>
 }
@@ -217,7 +217,7 @@ void exercise10_run()
 		shift_left_matrix();
  8000252:	f000 f809 	bl	8000268 <shift_left_matrix>
 		setTimer(TIMER_UPDATE_BUFFER, TIME_UPDATE_BUFFER);
- 8000256:	f44f 7148 	mov.w	r1, #800	@ 0x320
+ 8000256:	f44f 717a 	mov.w	r1, #1000	@ 0x3e8
  800025a:	2002      	movs	r0, #2
  800025c:	f000 fb88 	bl	8000970 <setTimer>
 	}
@@ -1288,7 +1288,7 @@ __STATIC_FORCEINLINE void __disable_irq(void)
  800096e:	e7fd      	b.n	800096c <Error_Handler+0x8>
 
 08000970 <setTimer>:
-#define TICK 10 					// ms
+#define TICK 10  // ms
 
 struct TimerStruct timer[10];
 

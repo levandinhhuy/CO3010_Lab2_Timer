@@ -9,14 +9,14 @@
 #include "exercise9.h"
 
 extern const int MAX_LED_MATRIX;
-extern int index_led_matrix; // STATE
+extern int index_led_matrix;
 extern uint8_t matrix_buffer[8];
 
 #define TIMER_SCAN_LED 1
 #define TIME_SCAN_LED 50
 
 #define TIMER_UPDATE_BUFFER 2
-#define TIME_UPDATE_BUFFER 800 // 790
+#define TIME_UPDATE_BUFFER 1000
 
 void exercise10_init()
 {

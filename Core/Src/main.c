@@ -61,7 +61,6 @@ static void MX_GPIO_Init(void);
 static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
-void setTimer(int idx, int counter);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -135,7 +134,6 @@ int main(void)
 		  exercise10_init();
 		  break;
 	  default:
-		  // Do nothing
 		  break;
 	}
 

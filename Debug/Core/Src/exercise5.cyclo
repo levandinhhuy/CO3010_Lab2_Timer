@@ -1,3 +1,3 @@
-../Core/Src/exercise5.c:27:6:exercise5_init	1
-../Core/Src/exercise5.c:36:6:exercise5_run	8
-../Core/Src/exercise5.c:78:6:updateClockBuffer	1
+../Core/Src/exercise5.c:26:6:exercise5_init	1
+../Core/Src/exercise5.c:35:6:exercise5_run	8
+../Core/Src/exercise5.c:77:6:updateClockBuffer	1
