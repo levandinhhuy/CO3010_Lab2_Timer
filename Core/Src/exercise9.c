@@ -76,7 +76,7 @@ uint16_t PIN_OF_COL[8] = {
 };
 
 const int MAX_LED_MATRIX = 8;
-int index_led_matrix = 0; 	// STATE
+int index_led_matrix = 0;
 uint8_t matrix_buffer[8] =
 {
 		0b00011000,

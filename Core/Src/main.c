@@ -143,37 +143,41 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  if (RUN_EXERCISE == 1) {
-		  exercise1_run();
-	  }
-	  else if (RUN_EXERCISE == 2) {
-		  exercise2_run();
-	  }
-	  else if (RUN_EXERCISE == 3) {
-		  exercise3_run();
-	  }
-	  else if (RUN_EXERCISE == 4) {
-		  exercise4_run();
-	  }
-	  else if (RUN_EXERCISE == 5) {
-		  exercise5_run();
-	  }
-	  else if (RUN_EXERCISE == 6) {
-		  exercise6_run();
-	  }
-	  else if (RUN_EXERCISE == 7) {
-		  exercise7_run();
-	  }
-	  else if (RUN_EXERCISE == 8) {
-		  exercise8_run();
-	  }
-	  else if (RUN_EXERCISE == 9) {
-		  exercise9_run();
-	  }
-	  else if (RUN_EXERCISE == 10) {
-		  exercise10_run();
-	  }
-
+      switch (RUN_EXERCISE)
+      {
+          case 1:
+              exercise1_run();
+              break;
+          case 2:
+              exercise2_run();
+              break;
+          case 3:
+              exercise3_run();
+              break;
+          case 4:
+              exercise4_run();
+              break;
+          case 5:
+              exercise5_run();
+              break;
+          case 6:
+              exercise6_run();
+              break;
+          case 7:
+              exercise7_run();
+              break;
+          case 8:
+              exercise8_run();
+              break;
+          case 9:
+              exercise9_run();
+              break;
+          case 10:
+              exercise10_run();
+              break;
+          default:
+        	  break;
+      }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
