@@ -31,6 +31,7 @@
 #include "exercise8.h"
 #include "exercise9.h"
 #include "exercise10.h"
+#include "software_timer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -40,7 +41,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define RUN_EXERCISE 10
+#define RUN_EXERCISE 5
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -329,6 +330,7 @@ static void MX_GPIO_Init(void)
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	timerRun();
+	timer_run();
 }
 /* USER CODE END 4 */
 

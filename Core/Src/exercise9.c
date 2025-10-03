@@ -116,13 +116,11 @@ void exercise9_run()
 	if (isFlag(TIMER_MATRIX))
 	{
 		updateLEDMatrix(index_led_matrix);
-
 		++index_led_matrix;
 		if (index_led_matrix >= 8)
 		{
 			index_led_matrix = 0;
 		}
-
 		setTimer(TIMER_MATRIX, TIME_MATRIX);
 	}
 }

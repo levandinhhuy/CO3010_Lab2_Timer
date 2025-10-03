@@ -1,2 +1,2 @@
-../Core/Src/exercise6.c:10:6:exercise6_init	4	static
-../Core/Src/exercise6.c:15:6:exercise6_run	4	static
+../Core/Src/exercise6.c:11:6:exercise6_init	4	static
+../Core/Src/exercise6.c:16:6:exercise6_run	8	static
