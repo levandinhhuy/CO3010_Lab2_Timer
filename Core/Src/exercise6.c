@@ -15,7 +15,7 @@ void exercise6_init()
 
 void exercise6_run()
 {
-	setTimer0(1000);
+	setTimer0(10);
 	while (1){
 		if (timer0_flag == 1){
 			HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);

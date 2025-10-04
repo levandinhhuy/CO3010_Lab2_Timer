@@ -373,7 +373,7 @@
      <ITEM name="AutoResize">No</ITEM>
      <ITEM name="Gridlines">Yes</ITEM>
      <ITEM name="Name Column Width">100</ITEM>
-     <ITEM name="Previous Value Column Width">100</ITEM>
+     <ITEM name="Previous Value Column Width">-102</ITEM>
      <ITEM name="ShowAddresses">Yes</ITEM>
      <ITEM name="ShowGlobals">Yes</ITEM>
      <ITEM name="ShowPreviousValues">Yes</ITEM>
