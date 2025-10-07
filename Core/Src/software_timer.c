@@ -46,7 +46,7 @@ int isFlag(int idx)
 }
 
 void setTimer0(int duration){
-	 timer0_counter = duration /TIMER_CYCLE;
+	 timer0_counter = duration / TIMER_CYCLE;
 	 timer0_flag = 0;
 }
 
