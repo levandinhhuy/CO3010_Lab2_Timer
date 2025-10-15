@@ -8,7 +8,7 @@
 #include "exercise9.h"
 
 #define TIMER_MATRIX 6
-#define TIME_MATRIX 100
+#define TIME_MATRIX 20
 
 #define ENABLE_LED RESET
 #define UNABLE_LED SET

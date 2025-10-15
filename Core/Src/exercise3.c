@@ -16,7 +16,7 @@
 #define DISABLE_SEG 1
 
 #define TIMER_7SEG 3
-#define TIME_7SEG 20
+#define TIME_7SEG 250
 
 #define TIMER_DOT 4
 #define TIME_DOT 1000
@@ -26,7 +26,7 @@
 
 const int MAX_LED = 4;
 int index_led = 0;
-int led_buffer[4] = {1, 2, 3, 4};
+int led_buffer[4] = {2, 6, 0, 8};
 
 void exercise3_init()
 {
